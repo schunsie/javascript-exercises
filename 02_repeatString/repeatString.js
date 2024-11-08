@@ -3,7 +3,7 @@ const repeatString = function(stringToRepeat, amountOfRepeats) {
     
     let repeatedString = '';
     for (let i = 0; i < amountOfRepeats; i++) {
-        repeatedString += stringToRepeat
+        repeatedString += stringToRepeat;
     }
     return repeatedString;
 };
